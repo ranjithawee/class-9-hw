@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 10px;
+}
+audio{
+    width: 100%;
+}
+video{
+    width: 100%;
+    margin-top: 10px;
+}
+hr{
+    margin: 20px 0;
+}
+.hidden{
+    border: 1px solid #f69d3c;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffe8d4;
+}
+label{
+    display: flex;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#shakes, #payment{
+    width: 100%;
+}
+.submit{
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.footer_p{
+    text-align: center;
+    padding: 20px;
+}
+.footer_p a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer_p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
